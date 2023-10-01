@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primaryColor: #d23166;
+}
+
+body {
+  font-family: "Hind Madurai", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* navbar start */
+.navbar {
+  background-color: #fbf0f4;
+}
+
+.navbar .container .collapse .navbar-nav li {
+  margin-right: 50px;
+}
+.navbar .container .collapse .navbar-nav .nav-item a {
+  font-weight: 700;
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #3f3d3d;
+}
+.navbar .container .collapse .navbar-nav .nav-item .active {
+  color: var(--primaryColor) !important;
+}
+/* navbar end */
+
+/* hero style */
+.hero {
+  height: 120vh;
+  background-image: url(img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .container .row .desc-group {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  /* background-color: black; */
+}
+.hero .container .row .desc-group .desc h1 {
+  font-family: "Fredoka", sans-serif;
+  width: 600px;
+  font-size: 48px;
+}
+.hero .container .row .desc-group .desc span {
+  color: var(--primaryColor);
+}
+.hero .container .row .desc-group .desc p {
+  width: 500px;
+  font-size: 18px;
+}
+.hero .container .row .desc-group .desc .btn {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  background: var(--primaryColor);
+  border-radius: 15px;
+  padding: 8px 20px;
+}
+
+/* why us */
+#why-us .why-us .container .row div p {
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* detail */
+#details {
+  height: 400px;
+  background-color: #fbf0f4;
+}
+
+#details .details .container .row .kiri h4 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+}
+#details .details .container .row .kiri span {
+  color: var(--primaryColor);
+}
+
+#details .details .container .row .kiri p {
+  font-weight: 400;
+  font-size: 18px;
+  width: 450px;
+}
+#details .details .container .row .kiri a {
+  font-weight: 600;
+  font-size: 24px;
+  background-color: var(--primaryColor);
+  color: #fff;
+  border-radius: 15px;
+  padding: 12 26px;
+}
+#details .details .container .row .kiri button {
+  margin-left: -20px;
+}
